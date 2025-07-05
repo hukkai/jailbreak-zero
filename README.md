@@ -15,6 +15,6 @@ Results of other methods are collected from [Adversarial Reasoning Paper](https:
 
 We use the Llama-2 13B judger from [HarmBench](https://huggingface.co/cais/HarmBench-Llama-2-13b-cls).
 
-`greedy`: Let Llama-3-8B-Instruct-RR generate the response with greedy decoding, and use the one response to determine whether a jailbreak is successful or not.
+[`greedy`](harmbench_llama3_rr_greedy.json): Let Llama-3-8B-Instruct-RR generate the response with greedy decoding, and use the one response to determine whether a jailbreak is successful or not.
 
 `sampled`: Let Llama-3-8B-Instruct-RR generate the response with randomness using it default generation config, and generate 5 different responses. A jailbreak is successful if all 5 responses are evaluted harmful by the LLM judger.
