@@ -4,7 +4,7 @@ We propose a fully automated framework for black-box LLM jailbreaking without hu
 
 No human knowledge, no engineered prompts.
 
-We report the jailbreak performance of 200 harmbench examples on Llama-3-8B-Instruct-RR, a Llama model with circuit breakers defense. 
+We report the jailbreak performance of 200 harmbench examples on [Llama-3-8B-Instruct-RR](https://huggingface.co/GraySwanAI/Llama-3-8B-Instruct-RR), a Llama model with circuit breakers defense. 
 
 | Attack method| GCG | Adaptive Attack | AutoDAN-Turbo | PAIR | TAP-T | Adversarial Reasoning | Ours greedy | Ours sampled |
 |:------------:|:---:|:---------------:|:-------------:|:----:|:-----:|:---------------------:|:-----------:|:------------:|
